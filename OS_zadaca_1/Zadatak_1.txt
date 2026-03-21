@@ -1,0 +1,8 @@
+Zadatak 1 
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ pwd
+    /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ ls
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba1 && cd vjezba1
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1/vjezba1$ touch README.md
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1/vjezba1$ cd ..

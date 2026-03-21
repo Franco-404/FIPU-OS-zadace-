@@ -1,0 +1,9 @@
+Zadatak 3
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba3 && mkdir vjezba3/backup
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch vjezba3/script.sh
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ cp vjezba3/notes.txt vjezba3/backup/notes.txt && cp vjezba3/todo.txt vjezba3/backup/todo.txt && cp vjezba3/script.sh vjezba3/backup/script.sh
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ rm vjezba3/script.sh && ls vjezba3/backup  
+    notes.txt  todo.txt
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba3/backup/$USER
+6. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv vjezba3/backup/notes.txt vjezba3/backup/franco/notes.txt && mv vjezba3/backup/script.sh vjezba3/backup/franco/script.sh && mv vjezba3/backup/todo.txt vjezba3/backup/franco/todo.txt

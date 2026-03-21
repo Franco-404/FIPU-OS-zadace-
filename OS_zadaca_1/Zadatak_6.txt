@@ -1,0 +1,8 @@
+Zadatak 6
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir /mnt/c/Users/franc/Documents/vjezba6
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ touch /mnt/c/Users/franc/Documents/vjezba6/OS_script.md /mnt/c/Users/franc/Documents/vjezba6/notes.txt && mkdir /mnt/c/Users/franc/Documents/vjezba6/scripts
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv /mnt/c/Users/franc/Documents/vjezba6/OS_script.md /mnt/c/Users/franc/Documents/vjezba6/scripts
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv /mnt/c/Users/franc/Documents/vjezba6/notes.txt /mnt/c/Users/franc/Documents/vjezba6/todo.txt
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ cd /mnt/c/Users/franc/Documents/vjezba6/scripts && rm ../todo.txt
+

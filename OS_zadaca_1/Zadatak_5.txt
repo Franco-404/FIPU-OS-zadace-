@@ -1,0 +1,8 @@
+Zadatak 5
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba5 && touch vjezba5/$RANDOM.num
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ ls vjezba5
+    17734.num
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ cp vjezba5/17734.num vjezba5/backup.num 
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba5/backup
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv vjezba5/backup.num vjezba5/backup

@@ -1,0 +1,10 @@
+Zadatak 2
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba2 && touch vjezba2/file.txt
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ cp vjezba2/file.txt vjezba2/file_copy.txt
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ ls vjezba2
+    file.txt  file_copy.txt
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ rm vjezba2/file.txt && cd ..
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-$ rmdir OS_zadaca_1/vjezba2
+    rmdir: failed to remove 'OS_zadaca_1/vjezba2': Directory not empty 
+    Nije moguce izbrisati direktorij zato sto sadrzi datoteke, ondosno nije prazan.

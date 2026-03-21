@@ -1,0 +1,7 @@
+Zadatak 4
+
+1. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mkdir vjezba4 && mkdir vjezba4/subfolder
+2. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ touch vjezba4/$HOSTNAME
+3. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv vjezba4/$HOSTNAME vjezba4/$USER
+4. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ mv vjezba4/$USER vjezba4/subfolder/$USER
+5. franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1$ rm /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1/vjezba4/subfolder/$USER
