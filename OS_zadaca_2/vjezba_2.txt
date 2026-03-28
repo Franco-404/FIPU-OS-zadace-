@@ -1,0 +1,7 @@
+Zadatak 1:
+    U prethodnoj zadaci sam vec kreirao i klonirao Github repozitorij FIPU-OS-zadace- pomocu naredbe: git clone https://github.com/Franco-404/FIPU-OS-zadace-.git
+    
+    Buduci da je repozitorij vec kloniran, u ovom zadatku sam nastavio rad u postojecem direktoriju te sam stvorio novi direktorij OS_zadaca_2 i ovu datoteku vjezba_2.txt
+
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-$ mkdir OS_zadaca_2
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ touch vjezba_2.txt
