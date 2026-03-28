@@ -5,3 +5,25 @@ Zadatak 1:
 
     franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-$ mkdir OS_zadaca_2
     franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ touch vjezba_2.txt
+
+Zadatak 2:
+    
+    Stvaranje direktorija vjezba_2/data i vjezba_2/backup:
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ mkdir -p vjezba_2/data
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ mkdir vjezba_2/backup
+
+    Stvaranje datoteka script.js, style.css i .env
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+
+    Upis u datoteke
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ echo 'VJEZBE=OS' > vjezba_2/data/.env
+
+    Ispis sadrzaja svih datoteka naredbom cat:
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ cat vjezba_2/data/script.js
+        console.log("Hello, World!")
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ cat vjezba_2/data/style.css 
+        body { background-color: #f0f0f0; }
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ cat vjezba_2/data/.env 
+        VJEZBE=OS
