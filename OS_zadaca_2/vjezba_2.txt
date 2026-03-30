@@ -27,3 +27,27 @@ Zadatak 2:
         body { background-color: #f0f0f0; }
     franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ cat vjezba_2/data/.env 
         VJEZBE=OS
+
+Zadatak 3: 
+
+    Kopiranje svih datoteka koje nisu skrivene u direktorij backup pomocu wildcard * i  zastavice -v koja prikazuje detalje
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2/vjezba_2$ cp -v data/* backup/
+        'data/script.js' -> 'backup/script.js'
+        'data/style.css' -> 'backup/style.css'
+    Kopiranje skrivene datoteke
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2/vjezba_2$ cp -v data/.env backup/
+        'data/.env' -> 'backup/.env'
+    
+    Alternativno je moguce sve datoteke (ukljucujuci skrivene) kopirati jednom naredbom cp -rv data/. backup/ gdje . oznacava sadrzaj direktorija data, bez kopiranja samog direktorija.
+
+    Prebacivanje u direktorij data
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2/vjezba_2$ cd data
+
+    Ispis sadrzaja direktorija naredbom ls te zastavicama: -l za detaljan ispis, -a za odabir svih datoteka te -S za sortiranje po velicini 
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2/vjezba_2/data$ ls -laS ../backup
+        total 0
+        drwxrwxrwx 1 franco franco 4096 Mar 29 14:19 .
+        drwxrwxrwx 1 franco franco 4096 Mar 28 15:38 ..
+        -rwxrwxrwx 1 franco franco   36 Mar 29 14:19 style.css
+        -rwxrwxrwx 1 franco franco   29 Mar 29 14:19 script.js
+        -rwxrwxrwx 1 franco franco   10 Mar 29 14:19 .env
