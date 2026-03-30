@@ -51,3 +51,32 @@ Zadatak 3:
         -rwxrwxrwx 1 franco franco   36 Mar 29 14:19 style.css
         -rwxrwxrwx 1 franco franco   29 Mar 29 14:19 script.js
         -rwxrwxrwx 1 franco franco   10 Mar 29 14:19 .env
+
+Zadatak 4
+
+    Brisanje svih datoteka osim skrivenih datoteka odnosno brisanje svih datoteka osim datoteke .env te koristenje zastavica: -i za  potvrdu brisanja i -v za prikaz detalja o brisanju
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ rm -iv vjezba_2/data/*
+        rm: remove regular file 'vjezba_2/data/script.js'? y
+        removed 'vjezba_2/data/script.js'
+        rm: remove regular file 'vjezba_2/data/style.css'? y
+        removed 'vjezba_2/data/style.css'
+
+    Kopiranje sadrzaja direktorija backup u direktorij data koristeci zastavice: -n za sprijecavanje prepisivanja datoteka koje vec postoje, -v za prikaz detalja i -r za rekurziju 
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ cp -nvr vjezba_2/backup/. vjezba_2/data/
+        cp: warning: behavior of -n is non-portable and may change in future; use --update=none instead
+        'vjezba_2/backup/./style.css' -> 'vjezba_2/data/./style.css'
+        'vjezba_2/backup/./script.js' -> 'vjezba_2/data/./script.js'
+
+    Ispis sadrzaja direktorija koristeci zastavice: -l za detaljan ispis, -A za ispis svih direktorija i datoteka ne ukljucujuci posebne direktorije . i .., -t za sortiranje po vremenu zadnje izmjene 
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ ls -lAt vjezba_2/data/
+        total 0
+        -rwxrwxrwx 1 franco franco 29 Mar 30 11:56 script.js
+        -rwxrwxrwx 1 franco franco 36 Mar 30 11:56 style.css
+        -rwxrwxrwx 1 franco franco 10 Mar 28 15:58 .env
+
+    Sadrzaj direktorija mozemo ispisati i naredbom tree te koristeci zastavicu -a za prikaz skrivene datoteke
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ tree -a vjezba_2/data/
+        vjezba_2/data/
+        ├── .env
+        ├── script.js
+        └── style.css
