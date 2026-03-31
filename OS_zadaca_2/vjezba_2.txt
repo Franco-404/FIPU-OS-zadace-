@@ -54,7 +54,7 @@ Zadatak 3:
 
 Zadatak 4
 
-    Brisanje svih datoteka osim skrivenih datoteka odnosno brisanje svih datoteka osim datoteke .env te koristenje zastavica: -i za  potvrdu brisanja i -v za prikaz detalja o brisanju
+    Brisanje svih neskrivenih datoteka (cime ostaje samo datoteka .env), te koristenje zastavica: -i za  potvrdu brisanja i -v za prikaz detalja o brisanju
     franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2$ rm -iv vjezba_2/data/*
         rm: remove regular file 'vjezba_2/data/script.js'? y
         removed 'vjezba_2/data/script.js'
@@ -80,3 +80,42 @@ Zadatak 4
         ├── .env
         ├── script.js
         └── style.css
+
+Zadatak 5
+
+    1. Detaljan ispis sadrzaja glavnog direktorija, ukljucujuci skrivene datoteke, sortirano po velicini
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/My Games/Starfield$ ls -laS
+        total 4
+        drwxrwxrwx 1 franco franco 4096 Sep 14  2023 .
+        drwxrwxrwx 1 franco franco 4096 Jan  1  2025 ..
+        drwxrwxrwx 1 franco franco 4096 Sep  6  2023 Data
+        drwxrwxrwx 1 franco franco 4096 Feb 14  2024 Saves
+        -rwxrwxrwx 1 franco franco 1010 Feb 14  2024 StarfieldPrefs.ini
+        -rwxrwxrwx 1 franco franco  238 Sep 14  2023 ControlMap_Custom.txt
+
+    2.Detaljni ispis sadrzaja bez skrivenih datoteka, sortirano to velicini uz prikaz jedinica za velicinu datoteka
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/My Games/Starfield$ ls -lSh
+        total 4.0K
+        drwxrwxrwx 1 franco franco 4.0K Sep  6  2023 Data
+        drwxrwxrwx 1 franco franco 4.0K Feb 14  2024 Saves
+        -rwxrwxrwx 1 franco franco 1010 Feb 14  2024 StarfieldPrefs.ini
+        -rwxrwxrwx 1 franco franco  238 Sep 14  2023 ControlMap_Custom.txt
+    
+    3. Ispis svih datoteka i direktorija koristeci stablastu strukturu. ukljucujuci skrivene datoteke
+    franco@DESKTOP-C2NOUEE:/mnt/c/Users/franc/Documents/My Games/Starfield$ tree -a
+        .
+        ├── ControlMap_Custom.txt
+        ├── Data
+        │   └── Textures
+        │       └── Motd_Media
+        │           └── MOTDImage.png
+        ├── Saves
+        │   ├── Autosave1_1EAA6DA4_4C696E6B_000751_20231022133350_7_0_4.sfs
+        │   ├── Autosave2_1EAA6DA4_4C696E6B_000751_20231022133430_7_0_4.sfs
+        │   ├── Autosave3_1EAA6DA4_4C696E6B_000808_20240214115556_7_0_4.sfs
+        │   ├── Exitsave0_1EAA6DA4_4C696E6B_000810_20240214120032_7_0_4.sfs
+        │   ├── Save1_1EAA6DA4_506C61796572_000010_20230906093759_1_0_4.sfs
+        │   └── Save9_1EAA6DA4_4C696E6B_000749_20230917093956_7_0_4.sfs
+        └── StarfieldPrefs.ini
+
+        5 directories, 9 files
