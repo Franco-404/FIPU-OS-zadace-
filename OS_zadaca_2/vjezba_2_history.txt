@@ -1,0 +1,174 @@
+    1  echo $0
+    2  ls
+    3  cd documents
+    4  ls
+    5  cd github
+    6  ls
+    7  git clone https://github.com/Franco-404/repo-exercise.git
+    8  ls
+    9  git clone https://github.com/Franco-404/repo-exercise.git
+   10  git clone https://github.com/Franco-404/FIPU-OS-zadace-.git
+   11  ls
+   12  cd Documents
+   13  cd Github
+   14  ls
+   15  cd FIPU-OS-zadace-
+   16  ls
+   17  pwd
+   18  ls
+   19  mkdir vjezba1
+   20  cd vjezba1
+   21  touch README.txt
+   22  ls
+   23  cd OS_zadaca_1/
+   24  ls
+   25  rm -r vjezba3
+   26  ls
+   27  mkdir vjezba3 && mkdir vjezba3/backup
+   28  ls
+   29  touch vjezba3/notes.txt && touch vjezba3/todo.txt && touch script.sh
+   30  rm script.sh
+   31  touch vjezba3/script.sh
+   32  cp vjezba3/notes.txt vjezba3/backup/notes.txt && cp vjezba3/todo.txt vjezba3/backup/todo.txt && cp vjezba3/script.sh vjezba3/backup/script.sh
+   33  rm vjezba3/script.sh && ls vjezba3
+   34  mkdir vjezba3/backup/$USER
+   35  mv vjezba3/backup/notes.txt vjezba3/backup/franco/notes.txt && mv vjezba3/backup/script.sh vjezba3/backup/franco/script.sh && mv vjezba3/backup/todo.txt vjezba3/backup/franco/todo.txt
+   36  ls
+   37  vjezba3/backup/ls
+   38  ls vjezba3/backup
+   39  touch Zadatak_3.txt
+   40  touch Zadatak_4.txt
+   41  cd OS_zadaca_1
+   42  mkdir vjezba4 && mkdir vjezba4/subfolder
+   43  touch vjezba4/$HOSTNAME
+   44  mv vjezba4/$HOSTNAME vjezba4/$USER
+   45  mv vjezba4/$USER vjezba4/subfolder/$USER
+   46  rm /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1/vjezba4/subfolder/$USER
+   47  mkdir vjezba5 && touch vjezba5/$RANDOM.num
+   48  touch Zadatak_5.txt
+   49  ls vjezba5
+   50  cp vjezba5/17734.num vjezba5/backup.num 
+   51  mkdir vjezba5/backup
+   52  mv vjezba5/backup.num vjezba5/backup
+   53  touch Zadatak_6.txt
+   54  mkdir /mnt/c/Users/franc/Documents/vjezba6
+   55  cd /mnt/c/Users/franc/Documents
+   56  cd /mnt/c/Users/franc/Documents/vjezba6
+   57  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_1
+   58  touch /mnt/c/Users/franc/Documents/vjezba6/OS_script.md /mnt/c/Users/franc/Documents/vjezba6/notes.txt && mkdir /mnt/c/Users/franc/Documents/vjezba6/scripts
+   59  mv /mnt/c/Users/franc/Documents/vjezba6/OS_script.md /mnt/c/Users/franc/Documents/vjezba6/scripts
+   60  mv /mnt/c/Users/franc/Documents/vjezba6/notes.txt /mnt/c/Users/franc/Documents/vjezba6/todo.txt
+   61  cd /mnt/c/Users/franc/Documents/vjezba6/scripts && rm ../todo.txt
+   62  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-
+   63  pwd
+   64  git add .
+   65  git commit -m "Dodao sam prvu zadacu"
+   66  git config --global user.email "franco.simon012@gmail.com"
+   67  git config --global user.name "Franco"
+   68  git push
+   69  ping github.com
+   70  ping 8.8.8.8
+   71  wsl --shutdown
+   72  exit
+   73  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-
+   74  code FIPU-OS-zadace-
+   75  ls
+   76  cd ..
+   77  code FIPU-OS-zadace-
+   78  wsl --shutdown
+   79  exit
+   80  git push
+   81  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace
+   82  /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-
+   83  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-
+   84  cd ..
+   85  code FIPU-OS-zadace-
+   86  cd ~
+   87  ls
+   88  pwd
+   89  rm FIPU-OS-zadace- 
+   90  mdir OS_zadaca_2
+   91  mkdir OS_zadaca_2
+   92  cd OS_zadaca_2
+   93  touch vjezba_2.txt
+   94  git add .
+   95  git commit -m "Rijesen Zadatak 1"
+   96  git push
+   97  mkdir -p vjezba_2/data
+   98  mkdir vjezba_2/backup
+   99  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  100  echo 'console.log("Hello, World!")' > vjezba_2/data/script.js
+  101  echo 'body { background-color: #f0f0f0; }' > vjezba_2/data/style.css
+  102  echo 'VJEZBE=OS' > vjezba_2/data/.env
+  103  cat vjezba_2/data/script.js
+  104  cat vjezba_2/data/style.css 
+  105  cat vjezba_2/data/.env 
+  106  git add .
+  107  git commit -m "Rijesen Zadatak 2"
+  108  git push
+  109  ls
+  110  cp -r vjezba_2/data vjezba_2/backup
+  111  vjezba_2/backup
+  112  cd vjezba_2/backup/
+  113  rm -r data
+  114  cd ..
+  115  ls data/
+  116  ls data/.
+  117  cp -r  data/  backup/
+  118  cd backup
+  119  rm -r data
+  120  cp -rv data/. backup/
+  121  cd ..
+  122  cp -r data/. backup/
+  123  cd backup
+  124  rm .env script.js style.css
+  125  cd ..
+  126  cp -rv data/. backup/
+  127  cd backup
+  128  rm .env script.js style.css
+  129  cd ..
+  130  cp -v data/* backup/
+  131  cp -v data/.env backup/
+  132  cd data
+  133  ls -laS ../backup
+  134  git add
+  135  git add .
+  136  git commit -m "Rijesen Zadatak 3"
+  137  cd  ..
+  138  cd ..
+  139  git add
+  140  git add .
+  141  git commit -m "Rijesen Zadatak 3"
+  142  git push
+  143  rm -iv vjezba_2/data/*
+  144  cp -ivr vjezba_2/backup/. vjezba_2/data/
+  145  rm vjezba_2/data/*
+  146  cp -nvr vjezba_2/backup/. vjezba_2/data/
+  147  ls -At vjezba_2/data/
+  148  ls - lAt vjezba_2/data/
+  149  ls -lAt vjezba_2/data/
+  150  tree --version
+  151  sudo apt install tree
+  152  tree --version
+  153  tree -At vjezba_2/data/
+  154  tree -lAt vjezba_2/data/
+  155  tree vjezba_2/data/
+  156  tree -a vjezba_2/data/
+  157  git add .
+  158  git commit -m "Rjesen zadatak 4"
+  159  git push
+  160  cd /mnt/c/Users/franc/Documents/Assetto\ Corsa/
+  161  ls -laS
+  162  ls -lSh
+  163  tree -a
+  164  cd..
+  165  cd ..
+  166  cd My\ Games/Starfield/
+  167  ls -laS
+  168  ls -lSh
+  169  tree -a
+  170  cd /mnt/c/Users/franc/Documents/Github/FIPU-OS-zadace-/OS_zadaca_2/
+  171  git add .
+  172  git commit -m "Rijesen Zadatak 5"
+  173  git push
+  174  history > vjezba_2_history.txt
